@@ -1,1 +1,9 @@
-
+name: 'Build My Board'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["seeeduino_xiao_ble"]'
+      shield: '["chipper_left","chipper_right"]'
