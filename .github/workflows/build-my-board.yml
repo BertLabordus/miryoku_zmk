@@ -7,9 +7,4 @@ jobs:
     with:
       board: '["seeeduino_xiao_ble"]'
       shield: '["chipper_left","chipper_right"]'
-      alphas: 'qwerty'
-      extra: 'qwerty'
-      tap: 'qwerty'
-      nav: 'default'
-      clipboard: 'default'
-      layers: 'default'
+      alphas: qwerty
