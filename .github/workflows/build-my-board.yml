@@ -8,3 +8,8 @@ jobs:
       board: '["seeeduino_xiao_ble"]'
       shield: '["chipper_left","chipper_right"]'
       alphas: '["qwerty"]'
+      extra: '["qwerty"]'
+      tap: '["default"]'
+      nav: '["default"]'
+      clipboard: '["default"]'
+      layers: '["default"]'
